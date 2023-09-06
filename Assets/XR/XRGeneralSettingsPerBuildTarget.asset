@@ -1,20 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8111887853139578995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
-  m_Name: Android Settings
-  m_EditorClassIdentifier: 
-  m_LoaderManagerInstance: {fileID: -5701208229236842863}
-  m_InitManagerOnStart: 1
---- !u!114 &-7265133716103565219
+--- !u!114 &-1743743955495514273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26,25 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
   m_Name: Standalone Settings
   m_EditorClassIdentifier: 
-  m_LoaderManagerInstance: {fileID: 5167996164088200296}
+  m_LoaderManagerInstance: {fileID: 7915082910601723195}
   m_InitManagerOnStart: 1
---- !u!114 &-5701208229236842863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
-  m_Name: Android Providers
-  m_EditorClassIdentifier: 
-  m_RequiresSettingsUpdate: 0
-  m_AutomaticLoading: 0
-  m_AutomaticRunning: 0
-  m_Loaders:
-  - {fileID: 11400000, guid: 01e075a3a04d0cb48a007affa967dcad, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,11 +26,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: 
-  Keys: 0100000007000000
+  Keys: 01000000
   Values:
-  - {fileID: -7265133716103565219}
-  - {fileID: -8111887853139578995}
---- !u!114 &5167996164088200296
+  - {fileID: -1743743955495514273}
+--- !u!114 &7915082910601723195
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,5 +44,4 @@ MonoBehaviour:
   m_RequiresSettingsUpdate: 0
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
-  m_Loaders:
-  - {fileID: 11400000, guid: 01e075a3a04d0cb48a007affa967dcad, type: 2}
+  m_Loaders: []
