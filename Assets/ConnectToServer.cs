@@ -15,7 +15,7 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
         if (!PhotonNetwork.IsConnected)
         {
             Debug.LogWarning("An error occured while connecting...");
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Scena 11");
             return;
         }
     }
