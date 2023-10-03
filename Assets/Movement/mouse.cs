@@ -14,15 +14,12 @@ public class movement : MonoBehaviour
     float yRotation;
 
     PhotonView view;
-
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         view = GetComponent<PhotonView>();
     }
-
-
     void Update()
     {
         if (view.IsMine)

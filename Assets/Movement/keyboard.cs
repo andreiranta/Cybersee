@@ -32,12 +32,15 @@ public class wasd : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (view.IsMine)
+        {
             MovePlayer();
+        }
     }
     // Update is called once per frame
     void Update()
-   {
-            myInput();
+    {
+        myInput();
     }
 
     private void MovePlayer()
