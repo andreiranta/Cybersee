@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class wasd : MonoBehaviour
 {
@@ -15,10 +16,13 @@ public class wasd : MonoBehaviour
 
     Rigidbody rb;
 
+    PhotonView view;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        view = GetComponent<PhotonView>();
     }
     private void myInput()
     {
@@ -33,7 +37,10 @@ public class wasd : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        myInput();
+        if (view.IsMine)
+        {
+            myInput();
+        }
     }
 
     private void MovePlayer()
