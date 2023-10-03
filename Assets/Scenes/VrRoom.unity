@@ -22317,6 +22317,21 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 69042243384735830, guid: 5442daba9bc23b14eb0a8fb1c0b5eead,
+        type: 3}
+      propertyPath: m_ScaleModel.SynchronizeEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69042243384735830, guid: 5442daba9bc23b14eb0a8fb1c0b5eead,
+        type: 3}
+      propertyPath: m_PositionModel.SynchronizeEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 69042243384735830, guid: 5442daba9bc23b14eb0a8fb1c0b5eead,
+        type: 3}
+      propertyPath: m_RotationModel.SynchronizeEnabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2230186220164260019, guid: 5442daba9bc23b14eb0a8fb1c0b5eead,
         type: 3}
       propertyPath: sceneViewId
