@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 4fdbbd93b4a133c46bebbbfcb6c49411
+<<<<<<<< HEAD:Assets/Meshes/Decorative plants/Materials.meta
+guid: 497720d7932b2984099b01adcaebe22e
+========
+guid: 7585af7a1eca0dc429672de054426806
+>>>>>>>> multi:Assets/Photon/PhotonVoice/Code/FMOD.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Meshes/Decorative plants/Materials/Cover Mat.mat.meta
+guid: fbf788862cee8b540a960e116d358d99
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+========
+guid: c3d3f87b92075324cb460d8aea990056
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+>>>>>>>> multi:Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Prefabs/Left Panel.prefab.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

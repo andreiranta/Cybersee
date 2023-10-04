@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/StreamingAssets.meta
+guid: 5e7db20ab89913045b8255dde4e36b4e
+========
+guid: 60fb39937700d864986bb02f9e810191
+>>>>>>>> multi:Assets/Multiplayer.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

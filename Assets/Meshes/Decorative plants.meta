@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Meshes/Decorative plants.meta
 guid: 87dd7eb0a990bff41982858e4e04b6a2
+========
+guid: e15b50cfd713a7143b83efff9c9ddecc
+>>>>>>>> multi:Assets/StreamingAssets.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
