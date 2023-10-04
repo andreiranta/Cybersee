@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Meshes/Decorative plants/Materials/Bamboo Mat.mat.meta
+guid: 241835fd5e15cda48b356ccda4a31a92
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+========
+guid: c3a730cb090b60746a894f9331166d55
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+>>>>>>>> multi:Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Stylized city/Environment.prefab.meta
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

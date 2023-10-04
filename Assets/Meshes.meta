@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Meshes.meta
 guid: 06bcc4d80e5b7d24b90b8f2057b4c58e
+========
+guid: cf0b6b61e87a99d49ae39e5153122a22
+>>>>>>>> multi:Assets/Movement.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
