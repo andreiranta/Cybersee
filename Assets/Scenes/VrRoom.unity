@@ -1029,33 +1029,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1259912132}
-  - component: {fileID: 1259912131}
+  - component: {fileID: 1259912133}
   m_Layer: 0
-  m_Name: SpawnPlayers
+  m_Name: Network Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1259912131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259912130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a80c734ae32c13743b51780f246ad868, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 8905524173606605141, guid: 5442daba9bc23b14eb0a8fb1c0b5eead,
-    type: 3}
-  minX: 15
-  maxX: 70
-  cordY: 5
-  minZ: -35
-  maxZ: 20
 --- !u!4 &1259912132
 Transform:
   m_ObjectHideFlags: 0
@@ -1071,6 +1052,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1259912133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259912130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80c734ae32c13743b51780f246ad868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1635124446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,7 +1588,7 @@ PrefabInstance:
     - target: {fileID: 8367152629498559442, guid: 20f8515a55b67f34f8a684bae46e48bc,
         type: 3}
       propertyPath: m_Name
-      value: masute
+      value: Masute
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
