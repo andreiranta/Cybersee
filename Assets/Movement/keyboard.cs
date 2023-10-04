@@ -23,6 +23,12 @@ public class wasd : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         view = GetComponent<PhotonView>();
+        if (view.IsMine) { 
+            foreach (var item in GetComponentsInChildren<Renderer>()) 
+            {
+                item.enabled = false;
+            }
+        }
     }
     private void myInput()
     {

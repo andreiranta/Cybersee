@@ -19,7 +19,7 @@ public class SpawnPlayer : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
         Vector3 position = new Vector3(Random.Range(minX, maxX), cordY, Random.Range(minZ, maxZ));
-        spawnedPlayerPrefab = PhotonNetwork.Instantiate("Network Player", position, Quaternion.identity);
+        spawnedPlayerPrefab = PhotonNetwork.Instantiate("OVRCameraRig Variant", position, Quaternion.identity);
     }
 
     public override void OnLeftRoom()
